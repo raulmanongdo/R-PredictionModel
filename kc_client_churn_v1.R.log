@@ -1,0 +1,887 @@
+                            ClientAge                  AssDaysAfterCreation                  NoneCoreProgramsNums 
+                                13101                                 12120                                 12501 
+                   NoneCoreRecordNums             TotalNoneCoreProgramHours               MaxNoneCoreProgramHours 
+                                12501                                 12501                                 12501 
+              MinNoneCoreProgramHours           AverageNoneCoreProgramHours           AverageNoneCoreServiceHours 
+                                12501                                 12501                                 12501 
+                  NoneCoreRecordsRate                       NoneCoreTotalKM         FirstNoneCoreServiceDelayDays 
+                                12501                                 12501                                 12501 
+            FirstNoneCoreServiceHours              LastNoneCoreServiceHours     TotalDaysWithKincare_all_Programs 
+                                12501                                 12501                                  8646 
+late_first_service_count_all_programs   avg_first_service_days_all_programs 
+                                 8663                                  8663 
+                             HOME_STR_state                                         Sex 
+                                          0                                           0 
+                                 ClientType                                       Grade 
+                                          0                                           0 
+                             SmokerAccepted                              GenderRequired 
+                                          0                                           0 
+                        EthnicGroupRequired                      SpokenLanguageRequired 
+                                          0                                           0 
+                              AgeAtCreation                                 Responses_1 
+                                          0                                           0 
+                                Responses_2                                 Responses_3 
+                                          0                                           0 
+                                Responses_4                                 Responses_5 
+                                          0                                           0 
+                                Responses_6                                 Responses_7 
+                                          0                                           0 
+                                Responses_8                                 Responses_9 
+                                          0                                           0 
+                               Responses_10                              AllRecordsNums 
+                                          0                                           0 
+                           CoreProgramsNums                              CoreRecordNums 
+                                          0                                           0 
+                      TotalCoreProgramHours                         MaxCoreProgramHours 
+                                          0                                           0 
+                        MinCoreProgramHours                     AverageCoreProgramHours 
+                                          0                                           0 
+                    AverageCoreServiceHours                             CoreRecordsRate 
+                                          0                                           0 
+                                CoreTotalKM                   FirstCoreServiceDelayDays 
+                                          0                                           0 
+                      FirstCoreServiceHours                        LastCoreServiceHours 
+                                          0                                           0 
+                   FrequentschedStatusGroup                        MostUsedBillingGrade 
+                                          0                                           0 
+                           MostUsedPayGrade                            RespiteNeedsFlag 
+                                          0                                           0 
+                                DANeedsFlag                                 NCNeedsFlag 
+                                          0                                           0 
+                                PCNeedsFlag                             SocialNeedsFlag 
+                                          0                                           0 
+                         TransportNeedsFlag                         RequiredWorkersFlag 
+                                          0                                           0 
+                       PreferredWorkersFlag Client_Programs_count_at_observation_cutoff 
+                                          0                                           0 
+                     default_contract_group                               complainttier 
+                                          0                                           0 
+                              Issues_Raised                     Issues_Requiring_Action 
+                                          0                                           0 
+                           Escalated_Issues                               Closed_Issues 
+                                          0                                           0 
+             Client_Initiated_Cancellations             Kincare_Initiated_Cancellations 
+                                          0                                           0 
+                        Canned_Appointments                                   HCW_Ratio 
+                                          0                                           0 
+                                      Label 
+                                          0 
+Warning message:
+glm.fit: fitted probabilities numerically 0 or 1 occurred 
+
+Call:
+glm(formula = Label ~ ., family = "binomial", data = d1)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-2.4676  -0.4118  -0.3067  -0.1950   4.2279  
+
+Coefficients: (14 not defined because of singularities)
+                                              Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                                 -6.051e+01  3.173e+03  -0.019 0.984785    
+HOME_STR_stateNSW                           -4.399e-01  2.085e-01  -2.110 0.034879 *  
+HOME_STR_stateQLD                           -5.092e-02  2.470e-01  -0.206 0.836692    
+HOME_STR_stateSA                            -7.295e-02  2.290e-01  -0.319 0.750026    
+HOME_STR_stateVIC                           -1.006e+00  4.038e-01  -2.492 0.012720 *  
+HOME_STR_stateWA                            -4.474e-01  2.962e-01  -1.511 0.130886    
+SexMale                                     -4.519e-02  1.112e-01  -0.407 0.684350    
+Sexmissing                                  -3.587e-01  1.352e-01  -2.654 0.007960 ** 
+ClientTypeBro                                1.322e+01  1.239e+03   0.011 0.991486    
+ClientTypeCAC                                1.467e+01  1.239e+03   0.012 0.990551    
+ClientTypeCas                                6.926e-01  1.851e+03   0.000 0.999701    
+ClientTypeCCP                                1.439e+01  1.239e+03   0.012 0.990735    
+ClientTypeCom                                1.340e+01  1.239e+03   0.011 0.991372    
+ClientTypeDem                                6.426e-02  1.281e+03   0.000 0.999960    
+ClientTypeDis                                1.366e+01  1.239e+03   0.011 0.991203    
+ClientTypeDom                                1.454e+01  1.239e+03   0.012 0.990636    
+ClientTypeDVA                                9.117e-01  1.998e+03   0.000 0.999636    
+ClientTypeEAC                                1.485e+01  1.239e+03   0.012 0.990440    
+ClientTypeHAC                                1.452e+01  1.239e+03   0.012 0.990651    
+ClientTypemissing                            1.446e+01  1.239e+03   0.012 0.990690    
+ClientTypeNRC                                1.413e+01  1.239e+03   0.011 0.990903    
+ClientTypeNur                                1.331e+01  1.239e+03   0.011 0.991431    
+ClientTypePer                                1.444e+01  1.239e+03   0.012 0.990700    
+ClientTypePri                                1.431e+01  1.239e+03   0.012 0.990786    
+ClientTypeRes                                1.475e+01  1.239e+03   0.012 0.990504    
+ClientTypeSoc                                1.515e+01  1.239e+03   0.012 0.990246    
+ClientTypeTAC                                1.379e+01  1.239e+03   0.011 0.991120    
+ClientTypeTCP                                1.165e+00  1.553e+03   0.001 0.999401    
+ClientTypeVHC                                1.671e+00  1.605e+03   0.001 0.999169    
+ClientTypeYou                                1.731e+01  1.239e+03   0.014 0.988851    
+GradeGrade2                                 -1.237e-01  1.422e-01  -0.869 0.384662    
+GradeGrade3                                 -2.406e-01  2.298e-01  -1.047 0.295073    
+GradeGrade4                                 -2.580e-01  8.007e-01  -0.322 0.747259    
+GradeGrade5                                  4.759e-03  3.599e-01   0.013 0.989449    
+GradeGrade6                                  1.896e-01  2.460e-01   0.771 0.440736    
+Grademissing                                -4.165e-02  1.333e-01  -0.313 0.754594    
+SmokerAcceptedNo                             1.289e+01  6.329e+02   0.020 0.983755    
+SmokerAcceptedYes                            1.289e+01  6.329e+02   0.020 0.983755    
+GenderRequiredFemale                         9.332e-02  7.801e-02   1.196 0.231578    
+GenderRequiredMale                           3.111e-02  2.472e-01   0.126 0.899854    
+EthnicGroupRequiredAustralia                 1.544e+01  1.541e+03   0.010 0.992002    
+EthnicGroupRequiredAzerbaijan                3.067e+00  2.852e+03   0.001 0.999142    
+EthnicGroupRequiredBhutan                    3.600e+01  2.852e+03   0.013 0.989926    
+EthnicGroupRequiredBrunei                    1.983e+00  2.852e+03   0.001 0.999445    
+EthnicGroupRequiredChina                     2.680e+00  1.608e+03   0.002 0.998670    
+EthnicGroupRequiredDominica                  3.634e+01  2.852e+03   0.013 0.989831    
+EthnicGroupRequiredEngland                   1.496e+01  1.541e+03   0.010 0.992254    
+EthnicGroupRequiredFrance                    1.060e+00  2.852e+03   0.000 0.999703    
+EthnicGroupRequiredGreece                    1.507e+01  1.541e+03   0.010 0.992196    
+EthnicGroupRequiredHaiti                     1.829e+00  2.852e+03   0.001 0.999488    
+EthnicGroupRequiredItaly                     1.505e+01  1.541e+03   0.010 0.992204    
+EthnicGroupRequiredKorea                     1.301e+00  2.026e+03   0.001 0.999488    
+EthnicGroupRequiredmissing                   1.563e+01  1.541e+03   0.010 0.991905    
+EthnicGroupRequiredNamibia                   5.680e-01  2.852e+03   0.000 0.999841    
+EthnicGroupRequiredOthers                    1.510e+01  1.541e+03   0.010 0.992181    
+EthnicGroupRequiredRomania                   3.471e+01  2.852e+03   0.012 0.990288    
+EthnicGroupRequiredSpain                     1.523e+01  1.541e+03   0.010 0.992115    
+EthnicGroupRequiredYugoslavia                3.197e+01  2.852e+03   0.011 0.991056    
+SpokenLanguageRequiredArabic                 1.325e+01  2.400e+03   0.006 0.995595    
+SpokenLanguageRequiredArmenian              -6.010e-01  2.753e+03   0.000 0.999826    
+SpokenLanguageRequiredBelorussian            6.243e-02  3.393e+03   0.000 0.999985    
+SpokenLanguageRequiredBisaya                -1.870e+00  3.393e+03  -0.001 0.999560    
+SpokenLanguageRequiredBulgarian             -5.850e-01  3.393e+03   0.000 0.999862    
+SpokenLanguageRequiredBurmese               -8.199e-01  3.393e+03   0.000 0.999807    
+SpokenLanguageRequiredCantonese              1.127e-01  2.434e+03   0.000 0.999963    
+SpokenLanguageRequiredDanish                -1.698e+00  2.889e+03  -0.001 0.999531    
+SpokenLanguageRequiredEnglish                1.310e+01  2.400e+03   0.005 0.995644    
+SpokenLanguageRequiredEstonian              -1.606e+00  2.862e+03  -0.001 0.999552    
+SpokenLanguageRequiredFijian                 7.913e-01  3.393e+03   0.000 0.999814    
+SpokenLanguageRequiredGreek                  1.325e+01  2.400e+03   0.006 0.995594    
+SpokenLanguageRequiredHungarian              9.952e-01  3.393e+03   0.000 0.999766    
+SpokenLanguageRequiredItalian                1.301e+01  2.400e+03   0.005 0.995673    
+SpokenLanguageRequiredJapanese               1.888e+00  3.393e+03   0.001 0.999556    
+SpokenLanguageRequiredMandarin               1.363e+01  2.400e+03   0.006 0.995468    
+SpokenLanguageRequiredmissing                1.307e+01  2.400e+03   0.005 0.995655    
+SpokenLanguageRequiredNetherlandic          -1.442e+00  2.927e+03   0.000 0.999607    
+SpokenLanguageRequiredOther                 -1.002e-01  2.872e+03   0.000 0.999972    
+SpokenLanguageRequiredOthers                 1.351e+01  2.400e+03   0.006 0.995509    
+SpokenLanguageRequiredPolish                -2.604e-01  3.393e+03   0.000 0.999939    
+SpokenLanguageRequiredPunjabi               -1.445e+00  3.393e+03   0.000 0.999660    
+SpokenLanguageRequiredSamoan                -4.191e-01  3.393e+03   0.000 0.999901    
+SpokenLanguageRequiredSpanish                1.423e+01  2.400e+03   0.006 0.995268    
+SpokenLanguageRequiredVietnamese             1.408e+01  2.400e+03   0.006 0.995319    
+AgeAtCreation                               -1.889e-05  2.548e-03  -0.007 0.994084    
+Responses_1                                  5.805e-01  3.576e-01   1.623 0.104523    
+Responses_2                                 -1.612e-01  3.833e-01  -0.421 0.674069    
+Responses_3                                  1.255e-02  3.280e-01   0.038 0.969490    
+Responses_4                                  4.435e-01  3.424e-01   1.295 0.195251    
+Responses_5                                 -4.364e-01  2.549e-01  -1.712 0.086914 .  
+Responses_6                                 -1.029e-01  2.244e-01  -0.458 0.646657    
+Responses_7                                  2.079e-01  2.494e-01   0.834 0.404539    
+Responses_8No                               -1.402e+01  4.367e+02  -0.032 0.974395    
+Responses_8Unsure                            1.897e-02  5.603e-01   0.034 0.972999    
+Responses_8Yes                              -1.422e-01  1.740e-01  -0.817 0.413844    
+Responses_9No                               -8.607e-01  1.052e+00  -0.818 0.413311    
+Responses_9Unsure                            4.851e-01  7.267e-01   0.668 0.504379    
+Responses_9Yes                                      NA         NA      NA       NA    
+Responses_10                                -2.750e-01  2.027e-01  -1.357 0.174843    
+AllRecordsNums                              -4.021e-03  5.786e-03  -0.695 0.487108    
+CoreProgramsNums                            -2.153e-01  9.315e-02  -2.311 0.020842 *  
+CoreRecordNums                               1.961e-03  5.814e-03   0.337 0.735917    
+TotalCoreProgramHours                       -1.891e-03  9.180e-04  -2.060 0.039412 *  
+MaxCoreProgramHours                         -1.381e-01  3.667e-02  -3.766 0.000166 ***
+MinCoreProgramHours                          1.142e-01  4.304e-02   2.653 0.007979 ** 
+AverageCoreProgramHours                     -4.095e-03  1.210e-03  -3.384 0.000713 ***
+AverageCoreServiceHours                      2.559e-02  7.066e-02   0.362 0.717211    
+CoreRecordsRate                              8.416e-01  4.845e-01   1.737 0.082386 .  
+CoreTotalKM                                  6.298e-05  7.979e-05   0.789 0.429970    
+FirstCoreServiceDelayDays                   -1.029e-04  9.032e-05  -1.139 0.254561    
+FirstCoreServiceHours                               NA         NA      NA       NA    
+LastCoreServiceHours                                NA         NA      NA       NA    
+FrequentschedStatusGroupCancelled            5.896e-01  2.525e-01   2.335 0.019520 *  
+FrequentschedStatusGroupKincareInitiated     5.541e-02  5.335e-01   0.104 0.917270    
+FrequentschedStatusGroupmissing              8.491e-01  1.427e-01   5.949 2.70e-09 ***
+MostUsedBillingGradeBGrade2                  3.198e-01  1.369e-01   2.337 0.019443 *  
+MostUsedBillingGradeBGrade3                  9.781e-02  1.517e-01   0.645 0.518959    
+MostUsedBillingGradeBGrade4                  1.054e-01  1.523e+00   0.069 0.944830    
+MostUsedBillingGradeBGrade5                  1.617e+00  4.715e-01   3.429 0.000606 ***
+MostUsedBillingGradeBGrade6                  8.544e-01  3.145e-01   2.717 0.006589 ** 
+MostUsedBillingGradeBGrade9                  1.300e-01  2.833e-01   0.459 0.646322    
+MostUsedPayGradePGrade0                      4.556e+00  1.597e+00   2.854 0.004324 ** 
+MostUsedPayGradePGrade1                      6.196e-01  2.161e-01   2.866 0.004150 ** 
+MostUsedPayGradePGrade2                      5.617e-01  1.863e-01   3.015 0.002566 ** 
+MostUsedPayGradePGrade3                      7.155e-01  1.964e-01   3.644 0.000269 ***
+MostUsedPayGradePGrade4                      1.916e+00  1.185e+00   1.617 0.105969    
+MostUsedPayGradePGrade5                      3.153e-01  4.193e-01   0.752 0.452049    
+MostUsedPayGradePGrade6                     -4.495e-02  2.968e-01  -0.151 0.879632    
+RespiteNeedsFlagN                           -1.210e-01  4.593e-01  -0.263 0.792168    
+RespiteNeedsFlagY                           -4.967e-01  4.775e-01  -1.040 0.298239    
+DANeedsFlagN                                 1.559e-01  1.036e-01   1.505 0.132437    
+DANeedsFlagY                                        NA         NA      NA       NA    
+NCNeedsFlagN                                -7.379e-02  2.033e-01  -0.363 0.716671    
+NCNeedsFlagY                                        NA         NA      NA       NA    
+PCNeedsFlagN                                -2.728e-01  1.207e-01  -2.260 0.023818 *  
+PCNeedsFlagY                                        NA         NA      NA       NA    
+SocialNeedsFlagN                            -8.800e-02  1.215e-01  -0.724 0.468990    
+SocialNeedsFlagY                                    NA         NA      NA       NA    
+TransportNeedsFlagN                          2.866e-01  1.751e-01   1.637 0.101598    
+TransportNeedsFlagY                                 NA         NA      NA       NA    
+RequiredWorkersFlagN                         2.540e-01  2.639e-01   0.962 0.335872    
+RequiredWorkersFlagY                                NA         NA      NA       NA    
+PreferredWorkersFlagN                        3.563e-01  1.862e-01   1.914 0.055604 .  
+PreferredWorkersFlagY                               NA         NA      NA       NA    
+Client_Programs_count_at_observation_cutoff  3.368e-01  7.724e-02   4.360 1.30e-05 ***
+default_contract_groupDisability             1.020e-01  7.619e-01   0.134 0.893471    
+default_contract_groupDVA/VHC               -1.231e+01  9.381e+02  -0.013 0.989526    
+default_contract_groupmissing                       NA         NA      NA       NA    
+default_contract_groupOffice                -1.408e+01  2.400e+03  -0.006 0.995318    
+default_contract_groupPackage               -2.323e-01  1.600e-01  -1.452 0.146592    
+default_contract_groupPrivate/Commercial     3.211e-01  1.815e-01   1.770 0.076806 .  
+default_contract_groupTransPac               4.486e-01  5.806e-01   0.773 0.439730    
+complainttierTier1                           2.225e+00  2.881e-01   7.724 1.13e-14 ***
+complainttierTier2                           2.139e+00  4.110e-01   5.205 1.94e-07 ***
+complainttierTier3                           2.933e+00  9.725e-01   3.017 0.002557 ** 
+complainttierTier4                           1.863e+01  2.400e+03   0.008 0.993807    
+Issues_Raised                                3.476e-01  4.419e-02   7.866 3.66e-15 ***
+Issues_Requiring_Action                             NA         NA      NA       NA    
+Escalated_Issues                                    NA         NA      NA       NA    
+Closed_Issues                                       NA         NA      NA       NA    
+Client_Initiated_Cancellations              -7.341e-02  2.674e-02  -2.745 0.006054 ** 
+Kincare_Initiated_Cancellations             -5.463e-02  6.060e-02  -0.902 0.367303    
+Canned_Appointments                         -2.857e-02  2.220e-02  -1.287 0.198141    
+HCW_Ratio                                    1.482e-02  8.714e-03   1.700 0.089057 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 7196.0  on 13100  degrees of freedom
+Residual deviance: 6074.5  on 12952  degrees of freedom
+AIC: 6372.5
+
+Number of Fisher Scoring iterations: 15
+
+Error: object 'kg.glm' not found
+
+Call:
+glm(formula = Label ~ ., family = "binomial", data = train)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-1.5850  -0.4183  -0.3213  -0.2125   3.3639  
+
+Coefficients:
+                                              Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                                 -1.487e+01  7.673e+02  -0.019 0.984537    
+HOME_STR_stateNSW                           -2.807e-01  2.191e-01  -1.281 0.200202    
+HOME_STR_stateQLD                           -9.414e-02  2.472e-01  -0.381 0.703310    
+HOME_STR_stateSA                             2.760e-01  2.354e-01   1.172 0.241044    
+HOME_STR_stateVIC                           -7.878e-01  4.144e-01  -1.901 0.057289 .  
+HOME_STR_stateWA                            -4.352e-01  2.975e-01  -1.463 0.143521    
+SexMale                                     -3.265e-02  1.148e-01  -0.284 0.776176    
+Sexmissing                                  -4.109e-01  1.142e-01  -3.598 0.000321 ***
+ClientTypeBro                                1.231e+01  7.673e+02   0.016 0.987205    
+ClientTypeCAC                                1.326e+01  7.673e+02   0.017 0.986213    
+ClientTypeCas                                1.936e-01  1.645e+03   0.000 0.999906    
+ClientTypeCCP                                1.305e+01  7.673e+02   0.017 0.986429    
+ClientTypeCom                                1.241e+01  7.673e+02   0.016 0.987093    
+ClientTypeDem                                7.566e-02  8.040e+02   0.000 0.999925    
+ClientTypeDis                                1.202e+01  7.673e+02   0.016 0.987506    
+ClientTypeDom                                1.351e+01  7.673e+02   0.018 0.985956    
+ClientTypeDVA                               -7.290e-01  1.260e+03  -0.001 0.999538    
+ClientTypeEAC                                1.307e+01  7.673e+02   0.017 0.986411    
+ClientTypeHAC                                1.343e+01  7.673e+02   0.018 0.986037    
+ClientTypemissing                            1.338e+01  7.673e+02   0.017 0.986084    
+ClientTypeNRC                                1.244e+01  7.673e+02   0.016 0.987062    
+ClientTypeNur                                1.235e+01  7.673e+02   0.016 0.987159    
+ClientTypePer                                1.340e+01  7.673e+02   0.017 0.986066    
+ClientTypePri                                1.359e+01  7.673e+02   0.018 0.985864    
+ClientTypeRes                                1.377e+01  7.673e+02   0.018 0.985682    
+ClientTypeSoc                                1.438e+01  7.673e+02   0.019 0.985044    
+ClientTypeTAC                                1.205e+01  7.673e+02   0.016 0.987466    
+ClientTypeTCP                                7.531e-01  9.931e+02   0.001 0.999395    
+ClientTypeVHC                                1.479e-01  1.126e+03   0.000 0.999895    
+ClientTypeYou                                1.586e+01  7.673e+02   0.021 0.983511    
+CoreProgramsNums                            -2.909e-01  9.386e-02  -3.099 0.001938 ** 
+MaxCoreProgramHours                         -2.001e-01  3.672e-02  -5.449 5.06e-08 ***
+MinCoreProgramHours                          1.334e-01  4.180e-02   3.191 0.001420 ** 
+AverageCoreProgramHours                     -7.490e-03  9.713e-04  -7.711 1.25e-14 ***
+MostUsedBillingGradeBGrade2                  3.132e-01  1.292e-01   2.425 0.015326 *  
+MostUsedBillingGradeBGrade3                  1.655e-01  1.436e-01   1.153 0.249086    
+MostUsedBillingGradeBGrade4                 -2.614e-01  1.716e+00  -0.152 0.878966    
+MostUsedBillingGradeBGrade5                  1.562e+00  4.664e-01   3.349 0.000811 ***
+MostUsedBillingGradeBGrade6                  1.076e+00  3.004e-01   3.583 0.000340 ***
+MostUsedBillingGradeBGrade9                  5.544e-01  3.126e-01   1.774 0.076092 .  
+MostUsedPayGradePGrade0                     -1.306e+01  9.024e+02  -0.014 0.988449    
+MostUsedPayGradePGrade1                      2.186e-01  2.203e-01   0.992 0.321240    
+MostUsedPayGradePGrade2                      3.069e-01  1.842e-01   1.666 0.095718 .  
+MostUsedPayGradePGrade3                      2.966e-01  1.989e-01   1.491 0.135940    
+MostUsedPayGradePGrade4                      1.954e+00  1.246e+00   1.568 0.116988    
+MostUsedPayGradePGrade5                      2.078e-01  4.291e-01   0.484 0.628114    
+MostUsedPayGradePGrade6                     -3.709e-02  3.131e-01  -0.118 0.905714    
+PCNeedsFlagN                                 5.276e-02  2.300e-01   0.229 0.818539    
+PCNeedsFlagY                                -2.963e-02  2.424e-01  -0.122 0.902727    
+Client_Programs_count_at_observation_cutoff  7.057e-02  7.218e-02   0.978 0.328272    
+complainttierTier1                           2.220e+00  2.925e-01   7.589 3.21e-14 ***
+complainttierTier2                           1.643e+00  4.558e-01   3.604 0.000314 ***
+complainttierTier3                           3.257e+00  1.162e+00   2.803 0.005060 ** 
+complainttierTier4                           1.766e+01  1.455e+03   0.012 0.990317    
+Issues_Raised                                3.462e-01  4.733e-02   7.314 2.59e-13 ***
+Client_Initiated_Cancellations              -1.393e-01  2.484e-02  -5.607 2.06e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 5752.7  on 10479  degrees of freedom
+Residual deviance: 4997.7  on 10424  degrees of freedom
+AIC: 5109.7
+
+Number of Fisher Scoring iterations: 14
+
+Analysis of Deviance Table
+
+Model: binomial, link: logit
+
+Response: Label
+
+Terms added sequentially (first to last)
+
+
+                                            Df Deviance Resid. Df Resid. Dev  Pr(>Chi)    
+NULL                                                        10479     5752.7              
+HOME_STR_state                               5  127.433     10474     5625.3 < 2.2e-16 ***
+Sex                                          2   20.712     10472     5604.5 3.180e-05 ***
+ClientType                                  22  136.100     10450     5468.4 < 2.2e-16 ***
+CoreProgramsNums                             1   52.862     10449     5415.6 3.579e-13 ***
+MaxCoreProgramHours                          1   89.098     10448     5326.5 < 2.2e-16 ***
+MinCoreProgramHours                          1   15.389     10447     5311.1 8.751e-05 ***
+AverageCoreProgramHours                      1  104.352     10446     5206.7 < 2.2e-16 ***
+MostUsedBillingGrade                         6   56.231     10440     5150.5 2.614e-10 ***
+MostUsedPayGrade                             7    5.658     10433     5144.9    0.5802    
+PCNeedsFlag                                  2    0.376     10431     5144.5    0.8287    
+Client_Programs_count_at_observation_cutoff  1    1.807     10430     5142.7    0.1788    
+complainttier                                4   71.176     10426     5071.5 1.281e-14 ***
+Issues_Raised                                1   37.312     10425     5034.2 1.007e-09 ***
+Client_Initiated_Cancellations               1   36.492     10424     4997.7 1.533e-09 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "GLM Comp. Accuracy 0.924837848149561"
+   fitted.results
+       0    1
+  0 2410    5
+  1  192   14
+[1] "GLM Perf. Accuracy   0.641612616049854"
+[1] "GLM Precison   0.40771903050262"
+[1] "GLM Recall   0.355987055016181"
+[1] "GLM F Score  0.135090987697992"
+mtry = 3  OOB error = 7.66% 
+Searching left ...
+mtry = 2 	OOB error = 7.5% 
+0.02191235 0.01 
+Searching right ...
+mtry = 4 	OOB error = 7.67% 
+-0.02342159 0.01 
+
+Call:
+ randomForest(formula = Label ~ ., data = train, mtry = bestmtry,      ntree = 100, keep.forest = TRUE, importance = TRUE) 
+               Type of random forest: classification
+                     Number of trees: 100
+No. of variables tried at each split: 1
+
+        OOB estimate of  error rate: 7.7%
+Confusion matrix:
+     0  1 class.error
+0 9650 10 0.001035197
+1  797 23 0.971951220
+                Length Class  Mode     
+call                7  -none- call     
+type                1  -none- character
+predicted       10480  factor numeric  
+err.rate          300  -none- numeric  
+confusion           6  -none- numeric  
+votes           20960  matrix numeric  
+oob.times       10480  -none- numeric  
+classes             2  -none- character
+importance         56  -none- numeric  
+importanceSD       42  -none- numeric  
+localImportance     0  -none- NULL     
+proximity           0  -none- NULL     
+ntree               1  -none- numeric  
+mtry                1  -none- numeric  
+forest             14  -none- list     
+y               10480  factor numeric  
+test                0  -none- NULL     
+inbag               0  -none- NULL     
+terms               3  terms  call     
+[1] "RF Comp. Accuracy 0.922167111789393"
+   fitted.results
+       0    1
+  0 2410    5
+  1  192   14
+[1] "RF Perf. Accuracy  0.640722370596464"
+[1] "RF Precison   0.372631311204375"
+[1] "RF Recall   0.339805825242718"
+[1] "RF F Score  0.0917366900040713"
+
+Call:
+C5.0.default(x = train[, -1], y = train$Label, trials = 10)
+
+Classification Tree
+Number of samples: 10480 
+Number of predictors: 14 
+
+Number of boosting iterations: 10 
+Average tree size: 15.4 
+
+Non-standard options: attempt to group attributes
+
+
+Call:
+C5.0.default(x = train[, -1], y = train$Label, trials = 10)
+
+
+C5.0 [Release 2.07 GPL Edition]  	Thu Aug  4 04:09:47 2016
+-------------------------------
+
+Class specified by attribute `outcome'
+
+Read 10480 cases (15 attributes) from undefined.data
+
+-----  Trial 0:  -----
+
+Decision tree:
+
+MostUsedBillingGrade in {BGrade1,BGrade2,BGrade3}: 0 (9795/639)
+MostUsedBillingGrade = BGrade5:
+:...ClientType in {Com,Dis,Dom,HAC}: 0 (9)
+:   ClientType in {Att,Bro,CAC,Cas,CCP,Dem,DVA,EAC,missing,NRC,Nur,Per,Pri,Res,
+:                  Soc,TAC,TCP,VHC,You}: 1 (98/41)
+MostUsedBillingGrade in {BGrade4,BGrade6,BGrade9}:
+:...HOME_STR_state in {NSW,VIC}: 0 (306/18)
+    HOME_STR_state in {ACT,QLD,SA,WA}:
+    :...MaxCoreProgramHours > 1.866667: 0 (104/22)
+        MaxCoreProgramHours <= 1.866667:
+        :...Sex = missing: 0 (12/2)
+            Sex in {Female,Male}:
+            :...MostUsedPayGrade in {missing,PGrade1,PGrade3,
+                :                    PGrade5}: 0 (38/12)
+                MostUsedPayGrade in {PGrade0,PGrade2,PGrade4}: 1 (22/8)
+                MostUsedPayGrade = PGrade6:
+                :...ClientType in {Att,Bro,CAC,Cas,CCP,Com,Dem,Dom,DVA,EAC,HAC,
+                    :              NRC,Nur,Per,Pri,Res,Soc,TAC,TCP,VHC,
+                    :              You}: 1 (28/7)
+                    ClientType = Dis: 0 (2)
+                    ClientType = missing:
+                    :...PCNeedsFlag = missing: 0 (1)
+                        PCNeedsFlag = Y: 1 (4)
+                        PCNeedsFlag = N:
+                        :...MinCoreProgramHours <= 0.6: 1 (40/15)
+                            MinCoreProgramHours > 0.6: 0 (21/6)
+
+-----  Trial 1:  -----
+
+Decision tree:
+
+complainttier in {Tier1,Tier2,Tier3,Tier4}: 1 (187.2/62.4)
+complainttier = missing:
+:...AverageCoreProgramHours > 25: 0 (5733.8/941.3)
+    AverageCoreProgramHours <= 25:
+    :...MinCoreProgramHours <= 0.2333333: 0 (49.3/0.8)
+        MinCoreProgramHours > 0.2333333:
+        :...MaxCoreProgramHours > 3.166667: 0 (232.3/39)
+            MaxCoreProgramHours <= 3.166667:
+            :...Issues_Raised > 0.5989168:
+                :...ClientType in {Att,Cas,Dem,Dis,DVA,TCP,VHC,
+                :   :              You}: 1 (0)
+                :   ClientType in {Bro,CCP,NRC,TAC}: 0 (19.2)
+                :   ClientType in {CAC,Com,Dom,EAC,HAC,missing,Nur,Per,Pri,Res,
+                :   :              Soc}:
+                :   :...Client_Initiated_Cancellations <= 3: 1 (1070.5/476.5)
+                :       Client_Initiated_Cancellations > 3: 0 (89.6/23.4)
+                Issues_Raised <= 0.5989168:
+                :...HOME_STR_state in {NSW,VIC,WA}: 0 (1558.6/421.5)
+                    HOME_STR_state in {ACT,QLD,SA}:
+                    :...MaxCoreProgramHours <= 0.6666667: 0 (152.2/32.4)
+                        MaxCoreProgramHours > 0.6666667:
+                        :...MostUsedBillingGrade in {BGrade1,BGrade3,BGrade4,
+                            :                        BGrade5}: 0 (950.8/371)
+                            MostUsedBillingGrade in {BGrade2,BGrade6,
+                                                     BGrade9}: 1 (436.4/163.6)
+
+-----  Trial 2:  -----
+
+Decision tree:
+
+complainttier in {Tier3,Tier4}: 1 (14.7/1.7)
+complainttier in {missing,Tier1,Tier2}:
+:...AverageCoreProgramHours > 11:
+    :...Issues_Raised <= 0.5989168: 0 (3658.1/647.2)
+    :   Issues_Raised > 0.5989168:
+    :   :...CoreProgramsNums > 3: 0 (48/3.2)
+    :       CoreProgramsNums <= 3:
+    :       :...MostUsedPayGrade in {missing,PGrade0,PGrade4,
+    :           :                    PGrade5}: 0 (88/8.1)
+    :           MostUsedPayGrade in {PGrade1,PGrade2,PGrade3,PGrade6}:
+    :           :...Client_Initiated_Cancellations > 4: 0 (525.7/100.3)
+    :               Client_Initiated_Cancellations <= 4:
+    :               :...MinCoreProgramHours <= 0.35: 0 (516.4/114.9)
+    :                   MinCoreProgramHours > 0.35:
+    :                   :...HOME_STR_state in {ACT,VIC,WA}: 1 (331.8/150.6)
+    :                       HOME_STR_state in {NSW,QLD,SA}: 0 (2031.3/686)
+    AverageCoreProgramHours <= 11:
+    :...complainttier = Tier2: 0 (0)
+        complainttier = Tier1: 1 (22.9/3.4)
+        complainttier = missing:
+        :...CoreProgramsNums > 2: 0 (48.7/8.1)
+            CoreProgramsNums <= 2:
+            :...MostUsedPayGrade in {missing,PGrade0,PGrade2,
+                :                    PGrade6}: 0 (1800.3/680.2)
+                MostUsedPayGrade in {PGrade1,PGrade3,PGrade4,PGrade5}:
+                :...Client_Initiated_Cancellations > 2: 0 (33.6/9.7)
+                    Client_Initiated_Cancellations <= 2:
+                    :...Issues_Raised > 0.5989168: 0 (223.8/92.3)
+                        Issues_Raised <= 0.5989168:
+                        :...MaxCoreProgramHours <= 0.5: 0 (45.6/13.5)
+                            MaxCoreProgramHours > 0.5:
+                            :...HOME_STR_state in {ACT,SA}: 0 (640.6/309.3)
+                                HOME_STR_state in {NSW,QLD,VIC,
+                                                   WA}: 1 (450.5/170.6)
+
+-----  Trial 3:  -----
+
+Decision tree:
+
+MaxCoreProgramHours <= 1.416667:
+:...AverageCoreProgramHours > 19.25: 0 (257/69.4)
+:   AverageCoreProgramHours <= 19.25:
+:   :...CoreProgramsNums > 1: 0 (37.1/11.7)
+:       CoreProgramsNums <= 1:
+:       :...MinCoreProgramHours <= 0.25: 0 (69.8/28.9)
+:           MinCoreProgramHours > 0.25: 1 (1235.5/480.3)
+MaxCoreProgramHours > 1.416667:
+:...AverageCoreProgramHours > 37.625: 0 (3912.5/1007.6)
+    AverageCoreProgramHours <= 37.625:
+    :...AverageCoreProgramHours > 8: 0 (3226.8/1142.6)
+        AverageCoreProgramHours <= 8:
+        :...Issues_Raised > 1: 1 (94.9/34)
+            Issues_Raised <= 1:
+            :...Sex in {Female,Male}: 1 (596.1/279.5)
+                Sex = missing: 0 (1050.3/400.2)
+
+-----  Trial 4:  -----
+
+Decision tree:
+
+Client_Initiated_Cancellations > 5: 0 (562.7/114.9)
+Client_Initiated_Cancellations <= 5:
+:...complainttier in {Tier1,Tier2,Tier3,Tier4}: 1 (224.9/90.8)
+    complainttier = missing:
+    :...AverageCoreProgramHours > 37.625:
+        :...Issues_Raised <= 0.5989168:
+        :   :...MinCoreProgramHours <= 3.5: 0 (1600.1/344.3)
+        :   :   MinCoreProgramHours > 3.5: 1 (27.3/7.6)
+        :   Issues_Raised > 0.5989168:
+        :   :...MinCoreProgramHours <= 1.25: 0 (1574.6/636.1)
+        :       MinCoreProgramHours > 1.25: 1 (66.9/21.3)
+        AverageCoreProgramHours <= 37.625:
+        :...AverageCoreProgramHours <= 0.4166667: 1 (32.2/4.9)
+            AverageCoreProgramHours > 0.4166667:
+            :...ClientType in {Att,Cas,Dem,Dis,DVA,NRC,TCP,VHC,
+                :              You}: 0 (30.7)
+                ClientType in {Bro,CAC,CCP,Com,Dom,EAC,HAC,missing,Nur,Per,Pri,
+                :              Res,Soc,TAC}:
+                :...AverageCoreProgramHours > 37.33333: 1 (44.6/11.9)
+                    AverageCoreProgramHours <= 37.33333:
+                    :...MaxCoreProgramHours > 3.166667: 0 (284.4/69.4)
+                        MaxCoreProgramHours <= 3.166667:
+                        :...CoreProgramsNums > 2: 0 (115.9/26.3)
+                            CoreProgramsNums <= 2: [S1]
+
+SubTree [S1]
+
+Client_Programs_count_at_observation_cutoff > 0.6687136:
+:...HOME_STR_state in {VIC,WA}: 0 (17.3)
+:   HOME_STR_state in {ACT,NSW,QLD,SA}:
+:   :...MostUsedBillingGrade in {BGrade1,BGrade2,BGrade4,BGrade5,
+:       :                        BGrade6}: 1 (1016.9/435.7)
+:       MostUsedBillingGrade in {BGrade3,BGrade9}: 0 (15.4)
+Client_Programs_count_at_observation_cutoff <= 0.6687136:
+:...Client_Programs_count_at_observation_cutoff > 0: 0 (365.6/117.3)
+    Client_Programs_count_at_observation_cutoff <= 0:
+    :...HOME_STR_state in {NSW,VIC,WA}: 0 (2546.1/974.1)
+        HOME_STR_state in {ACT,QLD,SA}:
+        :...Client_Initiated_Cancellations > 2: 0 (134.2/44.9)
+            Client_Initiated_Cancellations <= 2:
+            :...CoreProgramsNums > 1: 0 (141.1/52)
+                CoreProgramsNums <= 1:
+                :...AverageCoreProgramHours > 12.58333: 0 (336.3/122.2)
+                    AverageCoreProgramHours <= 12.58333:
+                    :...MaxCoreProgramHours <= 2.75: 0 (915.8/426.1)
+                        MaxCoreProgramHours > 2.75: 1 (427/171.1)
+
+-----  Trial 5:  -----
+
+Decision tree:
+
+complainttier in {Tier3,Tier4}: 1 (16.1/2.9)
+complainttier in {missing,Tier1,Tier2}:
+:...Client_Initiated_Cancellations > 5: 0 (516.7/120.5)
+    Client_Initiated_Cancellations <= 5:
+    :...MostUsedPayGrade in {PGrade4,PGrade5}: 1 (359.8/166.4)
+        MostUsedPayGrade in {missing,PGrade0,PGrade1,PGrade2,PGrade3,PGrade6}:
+        :...Issues_Raised <= 0.5989168:
+            :...ClientType in {Att,Cas,Dem,DVA,NRC,Nur,Per,Res,TCP,
+            :   :              VHC}: 0 (60.4)
+            :   ClientType in {Bro,CAC,CCP,Com,Dis,Dom,EAC,HAC,missing,Pri,Soc,
+            :   :              TAC,You}:
+            :   :...AverageCoreProgramHours > 26: 0 (1977.4/528.9)
+            :       AverageCoreProgramHours <= 26:
+            :       :...complainttier in {Tier1,Tier2}: 1 (25.5/2.9)
+            :           complainttier = missing:
+            :           :...MaxCoreProgramHours > 1.866667: 0 (2057.2/775.8)
+            :               MaxCoreProgramHours <= 1.866667:
+            :               :...ClientType in {Bro,Dom,You}: 1 (36.5/5.6)
+            :                   ClientType in {CAC,CCP,Com,Dis,EAC,HAC,missing,
+            :                   :              Pri,Soc,TAC}:
+            :                   :...MostUsedPayGrade in {missing,PGrade0,
+            :                       :                    PGrade1}: 0 (147.8/54.4)
+            :                       MostUsedPayGrade in {PGrade2,PGrade3,
+            :                       :                    PGrade6}:
+            :                       :...MinCoreProgramHours <= 0.7785598: 1 (525.8/227.5)
+            :                           MinCoreProgramHours > 0.7785598: 0 (767/356.2)
+            Issues_Raised > 0.5989168:
+            :...MinCoreProgramHours <= 0.35: 0 (606.7/210.2)
+                MinCoreProgramHours > 0.35:
+                :...ClientType in {Att,Bro,Cas,Dem,Dis,DVA,TAC,TCP,
+                    :              VHC}: 0 (30)
+                    ClientType in {CAC,CCP,Com,Dom,EAC,HAC,missing,NRC,Nur,Per,
+                    :              Pri,Res,Soc,You}:
+                    :...AverageCoreProgramHours > 200.25: 0 (133.9/37.4)
+                        AverageCoreProgramHours <= 200.25:
+                        :...CoreProgramsNums > 2: 0 (102.5/35)
+                            CoreProgramsNums <= 2:
+                            :...MaxCoreProgramHours <= 2.333333: 0 (667/268.7)
+                                MaxCoreProgramHours > 2.333333:
+                                :...AverageCoreProgramHours <= 4.625: 1 (100.9/25.1)
+                                    AverageCoreProgramHours > 4.625:
+                                    :...MaxCoreProgramHours > 4.333333: 1 (124.8/39)
+                                        MaxCoreProgramHours <= 4.333333:
+                                        :...HOME_STR_state in {ACT,QLD,SA,
+                                            :                  VIC}: 0 (549/210.5)
+                                            HOME_STR_state in {NSW,WA}: [S1]
+
+SubTree [S1]
+
+MaxCoreProgramHours > 3.416667: 0 (46.5/15.7)
+MaxCoreProgramHours <= 3.416667:
+:...HOME_STR_state = WA: 1 (58.1/16.2)
+    HOME_STR_state = NSW:
+    :...ClientType in {CAC,Com,NRC,Nur,Res,Soc,You}: 1 (0)
+        ClientType in {EAC,Per,Pri}: 0 (8.4)
+        ClientType in {CCP,Dom,HAC,missing}:
+        :...Client_Initiated_Cancellations <= 3: 1 (1473.7/660.5)
+            Client_Initiated_Cancellations > 3: 0 (88.6/24.3)
+
+-----  Trial 6:  -----
+
+Decision tree:
+
+Client_Initiated_Cancellations > 5: 0 (376.2/3.8)
+Client_Initiated_Cancellations <= 5:
+:...ClientType in {Att,Cas,Dem,Dis,DVA,TAC,TCP,VHC}: 0 (96)
+    ClientType in {Bro,CAC,CCP,Com,Dom,EAC,HAC,missing,NRC,Nur,Per,Pri,Res,Soc,
+    :              You}:
+    :...AverageCoreProgramHours > 12.5:
+        :...Issues_Raised <= 0.5989168: 0 (2062.4/261.1)
+        :   Issues_Raised > 0.5989168:
+        :   :...MinCoreProgramHours <= 0.35: 0 (358.6/23.7)
+        :       MinCoreProgramHours > 0.35:
+        :       :...AverageCoreProgramHours > 275.5: 0 (57.5)
+        :           AverageCoreProgramHours <= 275.5:
+        :           :...complainttier = Tier4: 0 (0)
+        :               complainttier in {Tier1,Tier2,Tier3}: 1 (110.4/41.1)
+        :               complainttier = missing:
+        :               :...MostUsedPayGrade in {missing,PGrade0,PGrade4,
+        :                   :                    PGrade5}: 0 (30.3)
+        :                   MostUsedPayGrade in {PGrade1,PGrade2,PGrade3,
+        :                   :                    PGrade6}:
+        :                   :...Issues_Raised > 1: 0 (809.3/214.8)
+        :                       Issues_Raised <= 1:
+        :                       :...ClientType in {Bro,Com,Dom,HAC,missing,NRC,
+        :                           :              Nur,Pri,
+        :                           :              Res}: 0 (1728.1/603.8)
+        :                           ClientType in {CAC,CCP,EAC,Per,Soc,
+        :                                          You}: 1 (200.7/84.4)
+        AverageCoreProgramHours <= 12.5:
+        :...MaxCoreProgramHours > 5.333333: 0 (44.8)
+            MaxCoreProgramHours <= 5.333333:
+            :...complainttier in {Tier2,Tier4}: 0 (0)
+                complainttier in {Tier1,Tier3}: 1 (25.4/7.7)
+                complainttier = missing:
+                :...Issues_Raised > 2: 1 (34.4/8.7)
+                    Issues_Raised <= 2:
+                    :...Client_Initiated_Cancellations > 3: 1 (58.8/18.9)
+                        Client_Initiated_Cancellations <= 3:
+                        :...CoreProgramsNums > 1: 0 (352.9/115.5)
+                            CoreProgramsNums <= 1:
+                            :...HOME_STR_state = ACT: 1 (212.9/85.5)
+                                HOME_STR_state = VIC: 0 (85.3/23.1)
+                                HOME_STR_state in {NSW,WA}:
+                                :...MinCoreProgramHours > 2: 0 (39.6)
+                                :   MinCoreProgramHours <= 2:
+                                :   :...MinCoreProgramHours <= 1.833333: 0 (1613.6/665.7)
+                                :       MinCoreProgramHours > 1.833333: 1 (104.6/41.2)
+                                HOME_STR_state in {QLD,SA}: [S1]
+
+SubTree [S1]
+
+Client_Initiated_Cancellations > 0: 0 (547.3/244.2)
+Client_Initiated_Cancellations <= 0:
+:...MinCoreProgramHours > 2.75: 0 (31/5.6)
+    MinCoreProgramHours <= 2.75:
+    :...Issues_Raised <= 0: 1 (1247.5/586.1)
+        Issues_Raised > 0: 0 (84.2/32.5)
+
+-----  Trial 7:  -----
+
+Decision tree:
+
+AverageCoreProgramHours > 24.75: 0 (3677.3/366.2)
+AverageCoreProgramHours <= 24.75:
+:...CoreProgramsNums > 2: 0 (85.4)
+    CoreProgramsNums <= 2:
+    :...Issues_Raised <= 0:
+        :...complainttier in {missing,Tier3}: 0 (3715.1/1018.8)
+        :   complainttier in {Tier1,Tier2,Tier4}: 1 (38.5/6.2)
+        Issues_Raised > 0:
+        :...ClientType in {Att,Bro,Cas,CCP,Dem,Dis,DVA,NRC,TAC,TCP,VHC,
+            :              You}: 0 (31.5)
+            ClientType in {CAC,Com,Dom,EAC,HAC,missing,Nur,Per,Pri,Res,Soc}:
+            :...complainttier in {Tier1,Tier2,Tier4}: 0 (53.7/12.8)
+                complainttier = Tier3: 1 (5.2)
+                complainttier = missing:
+                :...MostUsedPayGrade in {PGrade0,PGrade4}: 0 (7.2)
+                    MostUsedPayGrade = PGrade5: 1 (21/3.6)
+                    MostUsedPayGrade in {missing,PGrade1,PGrade2,PGrade3,
+                    :                    PGrade6}:
+                    :...MinCoreProgramHours <= 0.33: 0 (156.4/37.7)
+                        MinCoreProgramHours > 0.33:
+                        :...ClientType in {EAC,Nur,Res}: 1 (70.9/15.4)
+                            ClientType in {CAC,Com,Dom,HAC,missing,Per,Pri,Soc}:
+                            :...MostUsedBillingGrade in {BGrade4,
+                                :                        BGrade5}: 0 (0)
+                                MostUsedBillingGrade = BGrade6: 1 (214.7/79)
+                                MostUsedBillingGrade in {BGrade1,BGrade2,
+                                :                        BGrade3,BGrade9}:
+                                :...MaxCoreProgramHours <= 0.5833333: 1 (50.7/12.6)
+                                    MaxCoreProgramHours > 0.5833333:
+                                    :...Issues_Raised > 2: 1 (79/26.8)
+                                        Issues_Raised <= 2: [S1]
+
+SubTree [S1]
+
+AverageCoreProgramHours <= 2.333333: 0 (95.6/18.8)
+AverageCoreProgramHours > 2.333333:
+:...HOME_STR_state = VIC: 0 (11.7)
+    HOME_STR_state in {ACT,NSW,QLD,SA,WA}:
+    :...AverageCoreProgramHours <= 4.875: 1 (328.2/127.9)
+        AverageCoreProgramHours > 4.875: 0 (1506.9/630.1)
+
+-----  Trial 8:  -----
+
+Decision tree:
+
+AverageCoreProgramHours > 24.75: 0 (3039.7/113.8)
+AverageCoreProgramHours <= 24.75:
+:...MostUsedPayGrade in {missing,PGrade0,PGrade1,PGrade2,PGrade3}:
+    :...complainttier in {missing,Tier2}: 0 (5085.4/1284.9)
+    :   complainttier in {Tier1,Tier3,Tier4}: 1 (81/28)
+    MostUsedPayGrade in {PGrade4,PGrade5,PGrade6}:
+    :...HOME_STR_state in {NSW,VIC,WA}: 0 (326.3/67.5)
+        HOME_STR_state in {ACT,QLD,SA}:
+        :...ClientType in {Att,Bro,Cas,Dem,EAC,NRC,Nur,Res,Soc,TAC,TCP,VHC,
+            :              You}: 1 (0)
+            ClientType in {CAC,CCP,Dis,DVA,HAC,Per}: 0 (27.4)
+            ClientType in {Com,Dom,missing,Pri}:
+            :...MostUsedBillingGrade = BGrade4: 1 (0)
+                MostUsedBillingGrade in {BGrade1,BGrade2}: 0 (8.8)
+                MostUsedBillingGrade in {BGrade3,BGrade5,BGrade6,BGrade9}:
+                :...PCNeedsFlag = missing: 0 (26.5/4.3)
+                    PCNeedsFlag in {N,Y}:
+                    :...Sex in {Female,Male}: 1 (1294.7/407.7)
+                        Sex = missing: 0 (74.3/33.5)
+
+-----  Trial 9:  -----
+
+Decision tree:
+
+AverageCoreProgramHours > 7.416667: 0 (4579.4/139)
+AverageCoreProgramHours <= 7.416667:
+:...Issues_Raised > 2: 1 (150.5/6.1)
+    Issues_Raised <= 2:
+    :...complainttier in {Tier2,Tier3,Tier4}: 0 (0)
+        complainttier = Tier1: 1 (17.1)
+        complainttier = missing:
+        :...HOME_STR_state in {NSW,VIC,WA}: 0 (917.7)
+            HOME_STR_state in {ACT,QLD,SA}:
+            :...MaxCoreProgramHours <= 0.4166667: 1 (60/7)
+                MaxCoreProgramHours > 0.4166667:
+                :...MostUsedBillingGrade in {BGrade2,BGrade3,BGrade4,
+                    :                        BGrade9}: 0 (595.6/74.6)
+                    MostUsedBillingGrade in {BGrade1,BGrade5,BGrade6}:
+                    :...Client_Initiated_Cancellations <= 0: 0 (2856.2/705.6)
+                        Client_Initiated_Cancellations > 0: 1 (626.4/214)
+
+
+Evaluation on training data (10480 cases):
+
+Trial	    Decision Tree   
+-----	  ----------------  
+	  Size      Errors  
+
+   0	    14  770( 7.3%)
+   1	    11 1425(13.6%)
+   2	    16 1132(10.8%)
+   3	     9 1252(11.9%)
+   4	    21 1478(14.1%)
+   5	    24 1677(16.0%)
+   6	    24 1112(10.6%)
+   7	    18  885( 8.4%)
+   8	     9  784( 7.5%)
+   9	     8  855( 8.2%)
+boost	        760( 7.3%)   <<
+
+
+	   (a)   (b)    <-classified as
+	  ----  ----
+	  9640    20    (a): class 0
+	   740    80    (b): class 1
+
+
+	Attribute usage:
+
+	100.00%	MaxCoreProgramHours
+	100.00%	AverageCoreProgramHours
+	100.00%	MostUsedBillingGrade
+	100.00%	complainttier
+	100.00%	Client_Initiated_Cancellations
+	 99.99%	Issues_Raised
+	 96.24%	MostUsedPayGrade
+	 91.55%	ClientType
+	 85.64%	MinCoreProgramHours
+	 69.43%	CoreProgramsNums
+	 56.61%	HOME_STR_state
+	 40.69%	Client_Programs_count_at_observation_cutoff
+	 13.66%	Sex
+	  2.12%	PCNeedsFlag
+
+
+Time: 0.3 secs
+
+[1] "C5.0 Comp. Accuracy 0.92064097672644"
+   fitted.results.c50
+       0    1
+  0 2403   12
+  1  196   10
+[1] "C5.0 Pred. Accuracy   0.640213658908813"
+[1] "C5.0 Precison   0.266570705143769"
+[1] "C5.0 Recall   0.349514563106796"
+[1] "C5.0 F Score  0.116728414598576"
+[1] "GLM - Area under ROC curve  0.724574363303782"
+[1] "RF- Area under ROC curve  0.717967195320509"
+[1] "C5.0- Area under ROC curve  0.774721099921607"
+  |                                                                                                                  |                                                                                                          |   0%  |                                                                                                                  |=====================                                                                                     |  20%  |                                                                                                                  |==========================================                                                                |  40%  |                                                                                                                  |================================================================                                          |  60%  |                                                                                                                  |=====================================================================================                     |  80%  |                                                                                                                  |==========================================================================================================| 100%[1] "GLM 5-X-fold validation   0.92061674681322"
+[1] "RF 5-X-fold validation    0.921685367529196"
+[1] "C5.0 5-X-fold validation  0.915349973284482"
