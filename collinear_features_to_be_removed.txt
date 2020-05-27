@@ -1,0 +1,10 @@
+Closed_Issues
+AllRecordsNums
+CoreRecordNums
+TotalCoreProgramHours
+CoreTotalKM
+MaxCoreProgramHours
+AverageCoreServiceHours
+MostUsedPayGrade
+Canned_Appointments
+FrequentschedStatusGroup
